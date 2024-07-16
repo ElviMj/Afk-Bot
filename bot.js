@@ -13,9 +13,9 @@ function createBot() {
       username: config['bot-account']['username'],
       password: config['bot-account']['password'],
       auth: config['bot-account']['type'],
-      host: config.server.ip,
-      port: config.server.port,
-      version: config.server.version,
+      host: config.ElvinMJ.aternos.me,
+      port: config.server.49358,
+      version: config.server.1.21.0,
    });
 
    bot.loadPlugin(pathfinder);
